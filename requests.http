@@ -1,0 +1,20 @@
+GET http://localhost:8001/cards/
+
+###
+
+GET http://localhost:8001/
+
+###
+
+
+POST http://localhost:8001/cards/  http/1.1
+Content-Type: application/json
+
+{
+    "name": "Praneeth",
+    "imgurl":"https://i.kym-cdn.com/entries/icons/facebook/000/018/655/image.jpg"
+}
+
+
+
+
